@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "AWSSDKSwiftCore", targets: ["AWSSDKSwiftCore"])
     ],
     dependencies: [
-        .package(url: "https://github.com/noppoMan/Prorsum.git", .branch("performance")),
+        .package(url: "https://github.com/OSDevelopment/Prorsum", .branch("performance")),
         .package(url: "https://github.com/Yasumoto/HypertextApplicationLanguage.git", .branch("master"))
     ],
     targets: [
